@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # https://dev.to/aws-heroes/getting-started-with-github-codespaces-from-a-serverless-perspective-171k
 echo "Installing AWS CLI"
 pushd /tmp
