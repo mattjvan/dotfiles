@@ -11,3 +11,6 @@ popd
 
 echo "Installing cfn-lint"
 pip install cfn-lint
+
+echo "Upgrading NPM"
+npm install -g npm
