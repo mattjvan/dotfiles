@@ -14,3 +14,7 @@ pip install cfn-lint
 
 echo "Upgrading NPM"
 npm install -g npm
+
+echo "Installing Azure CLI"
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+az bicep upgrade
