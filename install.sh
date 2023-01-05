@@ -12,6 +12,10 @@ popd
 echo "Installing cfn-lint"
 pip install cfn-lint
 
+echo "Node 18"
+nvm install 18
+nvm alias default 18
+
 echo "Upgrading NPM"
 npm install -g npm
 
