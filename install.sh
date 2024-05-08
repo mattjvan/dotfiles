@@ -12,12 +12,15 @@ popd
 echo "Installing cfn-lint"
 pip install cfn-lint
 
-echo "Node 18"
-nvm install 18
-nvm alias default 18
+echo "Node 20"
+nvm install 20
+nvm alias default 20
 
 echo "Upgrading NPM"
 npm install -g npm
+
+echo "PNPM"
+curl -fsSL https://get.pnpm.io/install.sh | sh -
 
 echo "Installing Azure CLI"
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
