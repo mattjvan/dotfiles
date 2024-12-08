@@ -12,9 +12,9 @@ popd
 echo "Installing cfn-lint"
 pip install cfn-lint
 
-echo "Node 20"
-nvm install 20
-nvm alias default 20
+echo "Node 22"
+nvm install 22
+nvm alias default 22
 
 echo "Upgrading NPM"
 npm install -g npm
