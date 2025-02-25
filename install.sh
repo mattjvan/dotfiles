@@ -12,6 +12,12 @@ popd
 echo "Installing cfn-lint"
 pip install cfn-lint
 
+echo "Install NVM"
+# Download and install nvm:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+# in lieu of restarting the shell
+\. "$HOME/.nvm/nvm.sh"
+
 echo "Node LTS"
 nvm install --lts
 nvm use --lts
