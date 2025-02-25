@@ -16,9 +16,6 @@ echo "Node LTS"
 nvm install --lts
 nvm use --lts
 
-echo "Upgrading NPM"
-npm install -g npm
-
 echo "PNPM"
 curl -fsSL https://get.pnpm.io/install.sh | sh -
 
