@@ -10,6 +10,7 @@ rm -rf awscliv2.zip ./aws
 popd
 
 echo "Installing cfn-lint"
+python3 -m pip install --upgrade pip
 pip install cfn-lint
 
 echo "Install NVM"
